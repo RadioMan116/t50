@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`select default initialize and click change 1`] = `
+<select
+  className="asda1das"
+  disabled={false}
+  value={3}
+>
+  <option
+    disabled={true}
+    selected={false}
+    value="0"
+  >
+    -
+  </option>
+  <option
+    disabled={false}
+    selected={false}
+    value="1"
+  >
+    test1
+  </option>
+  <option
+    disabled={false}
+    selected={false}
+    value="2"
+  >
+    test2
+  </option>
+  <option
+    disabled={false}
+    selected={true}
+    value="3"
+  >
+    test3
+  </option>
+</select>
+`;
+
+exports[`select default initialize not disabled and click change 1`] = `
+<select
+  className="asda1das"
+  disabled={false}
+  value={0}
+>
+  <option
+    disabled={false}
+    selected={true}
+    value={0}
+  >
+    -
+  </option>
+  <option
+    disabled={false}
+    selected={false}
+    value="1"
+  >
+    test1
+  </option>
+  <option
+    disabled={false}
+    selected={false}
+    value="2"
+  >
+    test2
+  </option>
+  <option
+    disabled={false}
+    selected={false}
+    value="3"
+  >
+    test3
+  </option>
+</select>
+`;
+
+exports[`select select simple props set 1`] = `
+<select
+  disabled={false}
+>
+  <option
+    disabled={false}
+    selected={false}
+    value="1"
+  >
+    test1
+  </option>
+  <option
+    disabled={false}
+    selected={false}
+    value="2"
+  >
+    test2
+  </option>
+  <option
+    disabled={false}
+    selected={false}
+    value="3"
+  >
+    test3
+  </option>
+</select>
+`;

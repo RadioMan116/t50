@@ -1,0 +1,16 @@
+﻿{
+    "compilerOptions": {
+      "module": "commonjs",
+      "lib": ["es2015", "es2015.iterable", "dom"],
+      "target": "es5",
+      "declaration": true,
+      "declarationDir": "../../../../../../common_details/types"
+    },
+    "include": [
+      "src/*",
+      "src/*/*"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }

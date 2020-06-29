@@ -1,0 +1,29 @@
+.notify
+	position:fixed
+	top:0px
+	width:100%
+	box-sizing:border-box
+	color:white
+	text-align:center
+	overflow:hidden
+	box-sizing:border-box
+	z-index: 5000000
+	display: none
+	cursor: pointer
+
+	&&_success
+		background: #3b8c08de
+		color: #fff
+
+	&&_error
+		background: #ff0000e6
+		color: #fff
+
+	&_text_block
+		margin: 20px auto
+		width: 1000px
+		visibility: hidden
+
+		&&_show
+			visibility: visible
+

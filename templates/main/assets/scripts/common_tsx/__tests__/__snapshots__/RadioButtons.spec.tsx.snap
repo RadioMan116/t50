@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioButtons has checked 1`] = `
+<div>
+  <div
+    className="table__item"
+  >
+    <div
+      className="check-elem"
+    >
+      <input
+        checked={false}
+        className="check-elem__input"
+        id="test_3"
+        onClick={[Function]}
+        type="radio"
+      />
+      <label
+        className="check-elem__label"
+        for="test_3"
+      >
+        Да
+      </label>
+    </div>
+  </div>
+  <div
+    className="table__item"
+  >
+    <div
+      className="check-elem"
+    >
+      <input
+        checked={true}
+        className="check-elem__input"
+        id="test_4"
+        onClick={[Function]}
+        type="radio"
+      />
+      <label
+        className="check-elem__label"
+        for="test_4"
+      >
+        Нет
+      </label>
+    </div>
+  </div>
+</div>
+`;
