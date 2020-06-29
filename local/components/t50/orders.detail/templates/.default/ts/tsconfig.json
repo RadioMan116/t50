@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "lib": ["es2015", "es2015.iterable", "dom"],
+      "jsx": "react",
+      "jsxFactory": "h",
+      "target": "es5",
+      "sourceMap": true,
+      "emitBOM": true,
+      "baseUrl": ".",
+      "paths": {
+          "@Root/*": ["src/*"],
+          "@Components/*": ["src/components/*"],
+          "@Conteiners/*": ["src/conteiners/*"],
+          "@Reducers/*": ["src/reducers/*"],
+          "@Actions/*": ["src/actions/*"],
+      }
+    },
+    "include": [
+      "src/*",
+      "src/*/*",
+      "__tests__/*",
+      "__tests__/*/*/",
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
